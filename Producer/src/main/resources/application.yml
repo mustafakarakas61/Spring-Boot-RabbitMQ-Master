@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: Producer
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
